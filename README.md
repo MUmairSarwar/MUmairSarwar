@@ -2,6 +2,8 @@
 
 Mathematician working in machine learning and data analytics, based in Darmstadt, Germany.
 
+**Open to PhD positions and full-time roles in machine learning, data science and data analytics.**
+
 - M.Sc. Mathematics (Mathematics in Data Science) at TU Darmstadt, and student research assistant
 - M.Phil. Mathematics, Quaid-i-Azam University
 - Interests: robust and reliable machine learning, uncertainty quantification, optimisation and game theory, reproducible data pipelines
