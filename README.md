@@ -10,16 +10,16 @@ I am looking for Werkstudent and data science roles in Germany, and for funded P
 
 ## Machine learning and optimisation projects
 
-- [fair-multiagent-battery-control](https://github.com/MUmairSarwar/fair-multiagent-battery-control): six home batteries behind one transformer, controlled by independent Q-learning, PPO and MAPPO agents in a PettingZoo environment on 2025 German day-ahead prices. Benchmarked against a perfect-foresight LP: PPO reached about 68% of the LP optimum and had 58 kWh of overload against 939 kWh for a simple price rule. The same problem is also solved with dual decomposition and ADMM, with proportional and max-min fairness.
-- [robust-federated-learning-ml-security](https://github.com/MUmairSarwar/robust-federated-learning-ml-security): PyTorch simulation of federated learning on MNIST under label flipping and a backdoor, comparing FedAvg, median, trimmed mean and a fuzzy client-reliability rule over three seeds. None of the rules stopped the backdoor (about 92% success at best), and the README analyses why.
-- [germany-heat-risk-forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting): next-day maximum temperature and hot-day forecasts for Darmstadt from DWD observations, with chronological splits, split-conformal intervals and a Theil–Sen trend. The nominal 80% intervals covered 71.1% of holdout days.
-- [strategic-classification](https://github.com/MUmairSarwar/strategic-classification): simulation of how a fixed logistic-regression classifier degrades when rejected individuals game one feature to cross the decision boundary.
+- [fair-multiagent-battery-control](https://github.com/MUmairSarwar/fair-multiagent-battery-control) (August–October 2026; distributed-optimisation extension November 2026): six home batteries behind one transformer, controlled by independent Q-learning, PPO and MAPPO agents in a PettingZoo environment on 2025 German day-ahead prices. Benchmarked against a perfect-foresight LP: PPO reached about 68% of the LP optimum and had 58 kWh of overload against 939 kWh for a simple price rule. The same problem is also solved with dual decomposition and ADMM, with proportional and max-min fairness.
+- [robust-federated-learning-ml-security](https://github.com/MUmairSarwar/robust-federated-learning-ml-security) (July–December 2025): PyTorch simulation of federated learning on MNIST under label flipping and a backdoor, comparing FedAvg, median, trimmed mean and a fuzzy client-reliability rule over three seeds. None of the rules stopped the backdoor (about 92% success at best), and the README analyses why.
+- [germany-heat-risk-forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting) (April–August 2026): next-day maximum temperature and hot-day forecasts for Darmstadt from DWD observations, with chronological splits, split-conformal intervals and a Theil–Sen trend. The nominal 80% intervals covered 71.1% of holdout days.
+- [strategic-classification](https://github.com/MUmairSarwar/strategic-classification) (first version January–March 2025, rebuilt August 2026): simulation of how a fixed logistic-regression classifier degrades when rejected individuals game one feature to cross the decision boundary.
 
 ## Data analytics projects
 
-- [german-energy-operations](https://github.com/MUmairSarwar/german-energy-operations): 2025 German electricity data in a DuckDB warehouse built with Python and dbt, with 44 automated tests, a Streamlit dashboard and a scheduling scenario for a flexible four-hour process.
-- [retail-customer-analytics](https://github.com/MUmairSarwar/retail-customer-analytics): sales, returns and RFM customer segmentation on the UCI Online Retail data with Python and SQL, plus a dashboard and executive summary.
-- [customer-churn-prediction](https://github.com/MUmairSarwar/customer-churn-prediction): telecom churn classifier with a decision threshold chosen from an explicit cost ratio.
+- [german-energy-operations](https://github.com/MUmairSarwar/german-energy-operations) (January–March 2026; final data snapshot October 2026): 2025 German electricity data in a DuckDB warehouse built with Python and dbt, with 44 automated tests, a Streamlit dashboard and a scheduling scenario for a flexible four-hour process.
+- [retail-customer-analytics](https://github.com/MUmairSarwar/retail-customer-analytics) (January–March 2024): sales, returns and RFM customer segmentation on the UCI Online Retail data with Python and SQL, plus a dashboard and executive summary.
+- [customer-churn-prediction](https://github.com/MUmairSarwar/customer-churn-prediction) (first version May–August 2024, rebuilt August 2026): telecom churn classifier with a decision threshold chosen from an explicit cost ratio.
 
 ## Tools
 
