@@ -1,34 +1,22 @@
 # Muhammad Umair Sarwar
 
-M.Sc. student in Mathematics (Mathematics in Data Science) at TU Darmstadt, with an M.Phil. in Mathematics. I work on machine learning, optimisation and statistics, mostly on problems where the modelling assumptions matter as much as the code.
+I’m an M.Sc. Mathematics student in the Mathematics in Data Science specialisation at TU Darmstadt. I build Python and SQL projects in analytics, machine learning and optimisation. My M.Phil. thesis at Quaid-i-Azam University used linear programming to study matrix games under uncertainty.
 
-I am looking for Werkstudent and data science roles in Germany, and for funded PhD positions in machine learning and applied mathematics.
+I’m looking for internships, working-student roles and junior full-time roles in Germany.
 
-- M.Sc. Mathematics (Mathematics in Data Science), TU Darmstadt, since winter semester 2026/27
-- M.Phil. Mathematics, Quaid-i-Azam University. Thesis: matrix games under q-rung interval-valued orthopair fuzzy sets
-- Interests: multi-agent learning, distributed optimisation, uncertainty quantification, reliable machine learning, reproducible data pipelines
+## Selected projects
 
-## Machine learning and optimisation projects
+| Project | What I built | Start here |
+| --- | --- | --- |
+| [German Energy Operations](https://github.com/MUmairSarwar/german-energy-operations) | A DuckDB and dbt warehouse for public German electricity data, with a Streamlit dashboard and a historical scheduling scenario. | [SQL scheduling model](https://github.com/MUmairSarwar/german-energy-operations/blob/main/dbt/models/marts/mart_schedule.sql) |
+| [Retail Customer Analytics](https://github.com/MUmairSarwar/retail-customer-analytics) | A Python and SQLite pipeline for retail sales, returns and customer segmentation, with a Streamlit dashboard. | [Executive summary](https://github.com/MUmairSarwar/retail-customer-analytics/blob/main/reports/executive_summary.md) |
+| [Darmstadt Heat-Risk Forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting) | A next-day forecast from DWD station data, with chronological evaluation against persistence and an empirical check of prediction-interval coverage. | [Holdout metrics](https://github.com/MUmairSarwar/germany-heat-risk-forecasting/blob/main/outputs/metrics.json) |
+| [Fair Multi-Agent Battery Control](https://github.com/MUmairSarwar/fair-multiagent-battery-control) | A simulation of six household batteries on one transformer. I compared reinforcement learning with a linear-programming benchmark and studied distributed optimisation and fairness. | [Main results](https://github.com/MUmairSarwar/fair-multiagent-battery-control#main-findings) |
+| [Robust Federated Learning Under Poisoning and Backdoor Attacks](https://github.com/MUmairSarwar/robust-federated-learning-ml-security) | A PyTorch simulation comparing aggregation rules on MNIST. A backdoor remained effective even while clean accuracy stayed high. | [Benchmark summary](https://github.com/MUmairSarwar/robust-federated-learning-ml-security/blob/main/results/benchmark_summary.csv) |
+| [Telecom Customer Churn Prediction](https://github.com/MUmairSarwar/customer-churn-prediction) | A scikit-learn comparison of logistic regression and random forest, with a validation threshold tied to an explicit cost assumption. | [Holdout metrics](https://github.com/MUmairSarwar/customer-churn-prediction/blob/main/reports/model_metrics.json) |
 
-- [fair-multiagent-battery-control](https://github.com/MUmairSarwar/fair-multiagent-battery-control): six home batteries behind one transformer, controlled by independent Q-learning, PPO and MAPPO agents in a PettingZoo environment on 2025 German day-ahead prices. Benchmarked against a perfect-foresight LP: PPO reached about 68% of the LP optimum and had 58 kWh of overload against 939 kWh for a simple price rule. The same problem is also solved with dual decomposition and ADMM, with proportional and max-min fairness.
-- [robust-federated-learning-ml-security](https://github.com/MUmairSarwar/robust-federated-learning-ml-security): PyTorch simulation of federated learning on MNIST under label flipping and a backdoor, comparing FedAvg, median, trimmed mean and a fuzzy client-reliability rule over three seeds. None of the rules stopped the backdoor (about 92% success at best), and the README analyses why.
-- [germany-heat-risk-forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting): next-day maximum temperature and hot-day forecasts for Darmstadt from DWD observations, with chronological splits, split-conformal intervals and a Theil–Sen trend. The nominal 80% intervals covered 71.1% of holdout days.
-- [strategic-classification](https://github.com/MUmairSarwar/strategic-classification): simulation of how a fixed logistic-regression classifier degrades when rejected individuals game one feature to cross the decision boundary.
+[Strategic Classification and Behavioural Response](https://github.com/MUmairSarwar/strategic-classification) is a shorter synthetic simulation of how changing an input in response to a fixed classifier affects its performance.
 
-## Data analytics projects
+[Project history](PROJECT_TIMELINE.md) · [LinkedIn](https://www.linkedin.com/in/muhammad-umair-sarwar/)
 
-- [german-energy-operations](https://github.com/MUmairSarwar/german-energy-operations): 2025 German electricity data in a DuckDB warehouse built with Python and dbt, with 44 automated tests, a Streamlit dashboard and a scheduling scenario for a flexible four-hour process.
-- [retail-customer-analytics](https://github.com/MUmairSarwar/retail-customer-analytics): sales, returns and RFM customer segmentation on the UCI Online Retail data with Python and SQL, plus a dashboard and executive summary.
-- [customer-churn-prediction](https://github.com/MUmairSarwar/customer-churn-prediction): telecom churn classifier with a decision threshold chosen from an explicit cost ratio.
-
-## Tools
-
-Python (NumPy, pandas, scikit-learn, PyTorch, SciPy, CVXPY) · SQL (DuckDB, SQLite, dbt) · Streamlit · pytest · GitHub Actions · Git · R (learning)
-
-## Languages
-
-English (C1, IELTS 7.5) · German (A1, learning) · Urdu (native)
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/muhammad-umair-sarwar)
+English (C1, IELTS 7.5) · German (A1) · Urdu (native)
